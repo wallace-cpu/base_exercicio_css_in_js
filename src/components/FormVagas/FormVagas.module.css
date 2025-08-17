@@ -19,6 +19,6 @@
 }
 
 .campo {
-  padding: 0 16px;
-  outline-color: var(--cor-principal);
+  preenchimento: 0 16px;
+  cordocontorno: var(--cor-principal);
 }

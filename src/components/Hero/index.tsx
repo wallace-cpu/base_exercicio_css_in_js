@@ -1,13 +1,20 @@
-import styles from './Hero.module.css'
+import styled from "styled-components";
 
-const Hero = () => (
-  <form className={styles.form}>
-    <div className="container">
-      <h2 className={styles.heroTitle}>
-        As melhores vagas para tecnologia, design e artes visuais.
-      </h2>
-    </div>
-  </form>
-)
+export const Hero = styled.section`
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
 
-export default Hero
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }
+`;
+
+
